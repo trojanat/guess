@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 10px;
+    background-color: greenyellow;
+}
+
+p,
+button {
+
+    font-size: larger;
+    font-weight: bolder;
+    display: inline-block;
+}
+
+.between {
+    font-weight: bolder;
+}
+
+button {
+    float: right;
+    background-color: rgb(213, 129, 19);
+    border-radius: 7px;
+    opacity: 0.9;
+    padding: 7px 15px 7px 15px;
+}
+
+
+.div1 {
+    font-family: courier;
+    text-align: center;
+
+}
+
+.number {
+    background-color: rgb(152, 157, 157);
+    font-size: larger;
+    padding: 25px;
+    font-weight: bolder;
+    border-radius: 3px;
+    text-align: center;
+    margin-left: 40%;
+    margin-right: 40%;
+    width: 6rem;
+    height: 5rem;
+    border: 1px solid black;
+    // box-shadow: 3px 3px black; 
+    box-shadow: 0 0 23px 3px black;
+}
+
+.guess {
+    margin-bottom: 2rem;
+    background-color: rgb(155, 163, 170);
+    height: 60px;
+    max-width: 150px;
+    padding-left: 4rem;
+    display: block;
+    font-size: x-large;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+
+.leble-highscore {
+    display: block;
+}
+
+main {
+    margin-top: 5rem;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+/*
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: courier;
+    color: #333;
+    line-height: 1.5;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background: linear-gradient(to top left, yellow, rgb(191, 138, 4));
+}
+
+.show-modal {
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 1.75rem 3.5rem;
+    margin: 5rem 2rem;
+    border: none;
+    background-color: #fff;
+    color: #444;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.close-modal {
+    position: absolute;
+    top: 1.2rem;
+    right: 2rem;
+    font-size: 5rem;
+    color: #333;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+p {
+    font-size: 1.8rem;
+}
+
+.hidden {
+    display: none;
+}
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    background-color: white;
+    padding: 6rem;
+    border-radius: 5px;
+    box-shadow: 0 3rem 5rem black;
+    z-index: 10;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
